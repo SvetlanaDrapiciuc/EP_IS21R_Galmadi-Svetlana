@@ -1,0 +1,225 @@
+
+.totul{
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    
+    display: flex;
+    justify-content: space-between;
+    background-image: url(new_background_1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 1280px;
+    margin: 0 auto;
+ }
+div h1 {
+    background-color:  white;
+    color: gray;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button{
+    padding: 10px 20px;
+    background-color: #25975A;
+    border: none;
+    color: white;
+    font-weight: 600;
+} 
+
+.buttons button:hover{
+    transition: 0.2ms;
+    background-color: white;
+    color: black;
+}
+
+.regim{
+    color: white;
+    font-weight: bold;
+    margin: 2em;
+}
+input[type="text"] {
+    width: 100%; 
+    height: 30px;
+    margin-left: 8px;
+
+}
+.listagr {
+    background-color: white;
+    margin: 2em;
+    margin-left: 10px;
+    width: 100%;
+}
+select{
+   margin-bottom: 20px;
+   padding: 5px;
+   width: 100%;
+}
+ .table-orar {
+      display: grid;
+      grid-template-columns: 1fr repeat(7, 50px);
+      grid-auto-rows: 40px;
+      border: 1px solid gray;
+         }
+
+    .nr {
+      background-color: #25975A;
+      color: white;
+      text-align: center;
+      border: 1px solid gray;;
+    }
+
+    .zi{
+      background-color: #25975A;
+      color: white;
+      text-align: left;
+      padding-left: 10px;
+      border: 1px solid gray;
+    }
+
+    .cell {
+      background-color: white;
+      border: 1px solid gray;
+      text-align: center;
+      vertical-align: middle;
+    }
+    .cell.l { background-color: #ccffcc; } 
+    .cell.p { background-color: #99ffcc; } 
+    .cell.ep { background-color: #f4c2c2; } 
+    .cell.r { background-color: #ffa500; } 
+    .cell.s { background-color: #002366; color: white; } 
+    .cell.highlight { background-color: #ffd700; } 
+
+    div .deffinition{
+        margin-top: 30px;
+        font-size: 12px;
+        font-weight: 300;
+    }
+    
+    div .deffinition div{
+        color: white;
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    div .navigation_buttons{
+        display: flex;
+        margin-top: 20px;
+    }
+    
+    div .navigation_buttons .button2, .button3 {
+        margin-left: 10px;
+    }
+    
+    div .navigation_buttons .button1{
+        padding: 5px;
+        background-color: #25975A;
+        color: white;
+        border: none;
+    }
+    
+    div.navigation_buttons .button2{
+        padding: 5px;
+        background-color: rgb(233, 125, 125) !important;
+        color: white;
+        border: none;
+    }
+    
+    div .navigation_buttons .button3{
+        padding: 5px;
+        background-color: #5b3666;
+        color: white;
+        border: none;
+    }
+    
+    div .service{
+        margin-top: 15px;
+    }
+    
+    div .service p{
+        padding: 20px;
+        background-color: white;
+        color: #32d296;
+        font-weight: 100;
+    }
+    
+    .right img{
+        width: 150px;        
+    }
+
+    .right .logo{
+        justify-items: center;
+        margin-left: 150px;
+    }
+
+    .schedule {
+        display: grid;
+        grid-template-columns: 150px 1fr; 
+        grid-auto-rows: minmax(50px, auto); 
+        width: 80%;
+        margin: 20px auto;
+        border: 1px solid #ccc;
+    }
+
+    .right .header {
+        grid-column: span 2;
+        text-align: center;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .time {
+        text-align: center;
+        background-color: #25975A;
+        color: white;
+        padding: 10px;
+        border: 1px solid #ccc;
+        width: 130px
+    }
+
+    .event {
+        padding: 10px;
+        border: 1px solid #ccc;
+        background-color: white;
+        text-align: center;
+        width: 450px;
+    }
+
+    .empty {
+        background-color: #f9f9f9;
+    }
+
+    .footer {
+        grid-column: span 2;
+        text-align: center;
+        padding: 10px;
+        font-size: 12px;
+        background-color: #f1f1f1;
+    }
+
+div .right{
+    width: 50%;
+}
+.right .header{
+    color: white;
+    justify-content: center;
+
+}
+
